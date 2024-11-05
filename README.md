@@ -66,6 +66,8 @@ streamlit run main.py
 ## Notes
 Ensure the necessary API key is set in the scrape.py file, and confirm that all required dependencies are installed.
 
+### Suggested Additions
+
 1. **Error Handling**: Add error handling for invalid URLs and parsing exceptions to make the tool more robust.
 2. **User Feedback on Parsing**: Show a loading spinner or some feedback message while the scraping/parsing process is in progress, especially for larger sites.
 3. **Logging**: Add logging for debugging and tracking, especially within `scrape.py`.
